@@ -30,5 +30,5 @@ sudo python3 -m venv venv
 sudo chown ansibleadmin /home/ansibleadmin --recursive
 
 # Install ansible and azure modules into virtual environment
-pip3 install -r https://raw.githubusercontent.com/globalbao/terraform-azurerm-ansible-linux-vm/master/scripts/requirements-ansible.txt
-pip3 install -r https://raw.githubusercontent.com/globalbao/terraform-azurerm-ansible-linux-vm/master/scripts/requirements-azure.txt
+pip3 install -r https://raw.githubusercontent.com/lodgig/Ansiblepr1/master/requirements-ansible.txt
+pip3 install -r https://raw.githubusercontent.com/lodgig/Ansiblepr1/master/requirements-azure.txt
