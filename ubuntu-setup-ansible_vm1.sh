@@ -15,11 +15,14 @@ sudo apt install git --assume-yes
 # Install azcli
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
+# Install java
+sudo apt install openjdk-11-jdk --assume-yes
+
 # Install jenkins
 wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
 sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-sudo apt install jenkins
-
+sudo apt update
+sudo apt install jenkins --assume-yes
 
 # Install venv and pip
 sudo apt install python3-venv --assume-yes
