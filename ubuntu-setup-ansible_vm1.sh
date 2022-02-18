@@ -25,13 +25,13 @@ sudo apt update
 sudo apt install jenkins --assume-yes
 
 # Install venv and pip
-sudo apt install python3-venv --assume-yes
-sudo apt install python3-pip --assume-yes
+#sudo apt install python3-venv --assume-yes
+#sudo apt install python3-pip --assume-yes
 
 # Setup virtual environment and push home folder ownership
-sudo python3 -m venv venv
-sudo chown ansibleadmin /home/ansibleadmin --recursive
+#sudo python3 -m venv venv
+#sudo chown ansibleadmin /home/ansibleadmin --recursive
 
 # Install ansible and azure modules into virtual environment
-pip3 install -r https://raw.githubusercontent.com/lodgig/Ansiblepr1/master/requirements-ansible.txt
-pip3 install -r https://raw.githubusercontent.com/lodgig/Ansiblepr1/master/requirements-azure.txt
+#pip3 install -r https://raw.githubusercontent.com/lodgig/Ansiblepr1/master/requirements-ansible.txt
+#pip3 install -r https://raw.githubusercontent.com/lodgig/Ansiblepr1/master/requirements-azure.txt
