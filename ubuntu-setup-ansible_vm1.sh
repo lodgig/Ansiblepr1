@@ -5,7 +5,7 @@
 cd /home/ansibleadmin
 
 # Upgrade all packages that have available updates and remove old ones.
-echo "Password123" | sudo apt-get update
+sudo apt-get update
 sudo apt upgrade -y
 sudo apt autoremove --assume-yes
 
